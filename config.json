@@ -1,4 +1,4 @@
 {
-    "TOKEN": "CodeHere for Token",
-    "CHANNEL_ID": 1356602637406961725
+    "CHANNEL_ID": 1356602637406961725,
+    "MONGO_URI" : "mongodb+srv://Lordaniket:AAFPGuK3viXCrNY1@cluster0.emo5p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 }
