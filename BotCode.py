@@ -4,11 +4,13 @@ import sqlite3
 import json
 import re
 
+import os
+TOKEN = os.getenv("TOKEN")
+
 # Load configuration from JSON file
 with open("config.json", "r") as file:
     config = json.load(file)
 
-TOKEN = config.get("TOKEN")
 CHANNEL_ID = config.get("CHANNEL_ID")
 
 intents = discord.Intents.default()
