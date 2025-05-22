@@ -5,13 +5,12 @@ import re
 import os
 from database import save_join_code, get_join_code, delete_join_code, clear_all_codes  # Import DB functions
 
-print("This is a test connection")
-
 TOKEN = os.getenv("TOKEN")
 # Load configuration from JSON file
 with open("config.json", "r") as file:
     config = json.load(file)
 
+print("Added in File BotCode.py")
 
 intents = discord.Intents.default()
 intents.messages = True

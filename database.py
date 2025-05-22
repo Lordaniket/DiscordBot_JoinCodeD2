@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 import json
 
+print("This is changes in database")
 # Load configuration from JSON file
 with open("config.json", "r") as file:
     config = json.load(file)
