@@ -33,3 +33,6 @@ def delete_join_code(user_id):
 def clear_all_codes():
     """Delete all join codes (admin only)"""
     collection.delete_many({})
+
+
+print("test print")

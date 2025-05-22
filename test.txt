@@ -6,3 +6,16 @@ commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 anike@Aniket MINGW64 ~/OneDrive/
+
+
+
+git clone - Used to Clone repo
+git status - Check Repo's current status
+git diff <filename> - To check changes in a particular file
+git add <filename> - Adds file in commit
+git commit -m "<comment>" - Adds a commit
+git push - Push changes to GitHub
+git restore <filename> - restore the file to original
+git checkout -b <branch_name> - Creates a new branch and checks out
+
+git push origin <branch_name> - Pushes changes in branch
