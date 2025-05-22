@@ -1,0 +1,8 @@
+commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   BotCode.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+anike@Aniket MINGW64 ~/OneDrive/
